@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test,Edge Chromium 104,,,2022-08-13 14:22:13,2022-08-13 14:27:49,5m - 35.717s,PASSED
+,,,,,,,
+Test Cases/facebook.com/Login_Valid,Edge Chromium 104,,,2022-08-13 14:22:15,2022-08-13 14:23:17,1m - 2.716s,PASSED
+"openBrowser("""")",Edge Chromium 104,,,2022-08-13 14:22:17,2022-08-13 14:22:26,9.194s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Edge Chromium 104,,,2022-08-13 14:22:26,2022-08-13 14:22:29,2.728s,PASSED
+maximizeWindow(),Edge Chromium 104,,,2022-08-13 14:22:29,2022-08-13 14:22:29,0.632s,PASSED
+"setText(findTestObject(""Object Repository/facebook.com/Page_Facebook - Masuk atau Daftar/input_email atau nomor handphone""), ""anizazelkia@yahoo.com"")",Edge Chromium 104,,,2022-08-13 14:22:29,2022-08-13 14:22:31,1.702s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/facebook.com/Page_Facebook - Masuk atau Daftar/input_password""), ""Rs2yd0LSc9E9gDDstWYpOg=="")",Edge Chromium 104,,,2022-08-13 14:22:31,2022-08-13 14:22:32,1.087s,PASSED
+"click(findTestObject(""Object Repository/facebook.com/Page_Facebook - Masuk atau Daftar/button_Masuk""))",Edge Chromium 104,,,2022-08-13 14:22:32,2022-08-13 14:23:06,33.606s,PASSED
+takeScreenshot(),Edge Chromium 104,,,2022-08-13 14:23:06,2022-08-13 14:23:17,11.940s,PASSED
+,,,,,,,
+Test Cases/facebook.com/Login_Email_Invalid,Edge Chromium 104,,,2022-08-13 14:23:18,2022-08-13 14:24:20,1m - 2.738s,PASSED
+"openBrowser("""")",Edge Chromium 104,,,2022-08-13 14:23:19,2022-08-13 14:23:26,6.452s,PASSED
+"navigateToUrl(""facebook.com"")",Edge Chromium 104,,,2022-08-13 14:23:26,2022-08-13 14:23:29,3.365s,PASSED
+maximizeWindow(),Edge Chromium 104,,,2022-08-13 14:23:29,2022-08-13 14:23:29,0.358s,PASSED
+"setText(findTestObject(""facebook.com/Page_Facebook - Masuk atau Daftar/input_email atau nomor handphone""), ""@gmail.com"")",Edge Chromium 104,,,2022-08-13 14:23:29,2022-08-13 14:23:31,1.277s,PASSED
+"setEncryptedText(findTestObject(""facebook.com/Page_Facebook - Masuk atau Daftar/input_password""), ""Rs2yd0LSc9E9gDDstWYpOg=="")",Edge Chromium 104,,,2022-08-13 14:23:31,2022-08-13 14:23:32,1.454s,PASSED
+"click(findTestObject(""facebook.com/Page_Facebook - Masuk atau Daftar/button_Masuk""))",Edge Chromium 104,,,2022-08-13 14:23:32,2022-08-13 14:24:05,33.247s,PASSED
+"verifyElementText(findTestObject(""facebook.com/Notifikasi_Login/div_The email address or mobile number you entered isnt connected to an account. Find your account and log in""), ""The email address or mobile number you entered isn't connected to an account. Find your account and log in."")",Edge Chromium 104,,,2022-08-13 14:24:05,2022-08-13 14:24:20,14.295s,PASSED
+takeScreenshot(),Edge Chromium 104,,,2022-08-13 14:24:20,2022-08-13 14:24:20,0.675s,PASSED
+,,,,,,,
+Test Cases/facebook.com/Login_Password_Invalid,Edge Chromium 104,,,2022-08-13 14:24:20,2022-08-13 14:25:13,52.362s,PASSED
+"openBrowser("""")",Edge Chromium 104,,,2022-08-13 14:24:22,2022-08-13 14:24:28,6.172s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Edge Chromium 104,,,2022-08-13 14:24:28,2022-08-13 14:24:31,2.797s,PASSED
+maximizeWindow(),Edge Chromium 104,,,2022-08-13 14:24:31,2022-08-13 14:24:31,0.508s,PASSED
+"setText(findTestObject(""Object Repository/facebook.com/Page_Facebook - Masuk atau Daftar/input_email atau nomor handphone""), ""anizazelkia@yahoo.com"")",Edge Chromium 104,,,2022-08-13 14:24:31,2022-08-13 14:24:32,1.426s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/facebook.com/Page_Facebook - Masuk atau Daftar/input_password""), ""vOA0cDqQbrFcFaFUEJlNrQ=="")",Edge Chromium 104,,,2022-08-13 14:24:32,2022-08-13 14:24:34,1.094s,PASSED
+"click(findTestObject(""Object Repository/facebook.com/Page_Facebook - Masuk atau Daftar/button_Masuk""))",Edge Chromium 104,,,2022-08-13 14:24:34,2022-08-13 14:25:06,32.871s,PASSED
+"verifyElementText(findTestObject(""facebook.com/Notifikasi_Login/div_The password that youve entered is incorrect. Forgotten password""), ""The password that you've entered is incorrect. Forgotten password?"")",Edge Chromium 104,,,2022-08-13 14:25:06,2022-08-13 14:25:12,5.491s,PASSED
+takeScreenshot(),Edge Chromium 104,,,2022-08-13 14:25:12,2022-08-13 14:25:13,0.698s,PASSED
+,,,,,,,
+Test Cases/facebook.com/Login_Email_And_Password_NULL,Edge Chromium 104,,,2022-08-13 14:25:13,2022-08-13 14:26:04,51.586s,PASSED
+"openBrowser("""")",Edge Chromium 104,,,2022-08-13 14:25:14,2022-08-13 14:25:20,6.685s,PASSED
+"navigateToUrl(""facebook.com"")",Edge Chromium 104,,,2022-08-13 14:25:20,2022-08-13 14:25:24,3.591s,PASSED
+maximizeWindow(),Edge Chromium 104,,,2022-08-13 14:25:24,2022-08-13 14:25:24,0.381s,PASSED
+"setText(findTestObject(""facebook.com/Page_Facebook - Masuk atau Daftar/input_email atau nomor handphone""), """")",Edge Chromium 104,,,2022-08-13 14:25:24,2022-08-13 14:25:26,1.404s,PASSED
+"setEncryptedText(findTestObject(""facebook.com/Page_Facebook - Masuk atau Daftar/input_password""), """")",Edge Chromium 104,,,2022-08-13 14:25:26,2022-08-13 14:25:27,1.034s,PASSED
+"click(findTestObject(""facebook.com/Page_Facebook - Masuk atau Daftar/button_Masuk""))",Edge Chromium 104,,,2022-08-13 14:25:27,2022-08-13 14:26:00,33.286s,PASSED
+"verifyElementText(findTestObject(""facebook.com/Notifikasi_Login/div_The email address or mobile number you entered isnt connected to an account. Find your account and log in""), ""The email address or mobile number you entered isn't connected to an account. Find your account and log in."")",Edge Chromium 104,,,2022-08-13 14:26:00,2022-08-13 14:26:04,3.320s,PASSED
+takeScreenshot(),Edge Chromium 104,,,2022-08-13 14:26:04,2022-08-13 14:26:04,0.750s,PASSED
+,,,,,,,
+Test Cases/facebook.com/Login_Email_NULL,Edge Chromium 104,,,2022-08-13 14:26:04,2022-08-13 14:26:55,51.046s,PASSED
+"openBrowser("""")",Edge Chromium 104,,,2022-08-13 14:26:06,2022-08-13 14:26:12,6.287s,PASSED
+"navigateToUrl(""facebook.com"")",Edge Chromium 104,,,2022-08-13 14:26:12,2022-08-13 14:26:16,4.039s,PASSED
+maximizeWindow(),Edge Chromium 104,,,2022-08-13 14:26:16,2022-08-13 14:26:16,0.598s,PASSED
+"setText(findTestObject(""facebook.com/Page_Facebook - Masuk atau Daftar/input_email atau nomor handphone""), """")",Edge Chromium 104,,,2022-08-13 14:26:16,2022-08-13 14:26:18,1.289s,PASSED
+"setEncryptedText(findTestObject(""facebook.com/Page_Facebook - Masuk atau Daftar/input_password""), ""Rs2yd0LSc9E9gDDstWYpOg=="")",Edge Chromium 104,,,2022-08-13 14:26:18,2022-08-13 14:26:18,0.661s,PASSED
+"click(findTestObject(""facebook.com/Page_Facebook - Masuk atau Daftar/button_Masuk""))",Edge Chromium 104,,,2022-08-13 14:26:18,2022-08-13 14:26:52,33.065s,PASSED
+"verifyElementText(findTestObject(""facebook.com/Notifikasi_Login/div_The email address or mobile number you entered isnt connected to an account. Find your account and log in""), ""The email address or mobile number you entered isn't connected to an account. Find your account and log in."")",Edge Chromium 104,,,2022-08-13 14:26:52,2022-08-13 14:26:54,2.971s,PASSED
+takeScreenshot(),Edge Chromium 104,,,2022-08-13 14:26:54,2022-08-13 14:26:55,0.835s,PASSED
+,,,,,,,
+Test Cases/facebook.com/Login_Password_NULL,Edge Chromium 104,,,2022-08-13 14:26:55,2022-08-13 14:27:49,53.772s,PASSED
+"openBrowser("""")",Edge Chromium 104,,,2022-08-13 14:26:56,2022-08-13 14:27:03,6.749s,PASSED
+"navigateToUrl(""facebook.com"")",Edge Chromium 104,,,2022-08-13 14:27:03,2022-08-13 14:27:07,3.360s,PASSED
+maximizeWindow(),Edge Chromium 104,,,2022-08-13 14:27:07,2022-08-13 14:27:07,0.435s,PASSED
+"setText(findTestObject(""facebook.com/Page_Facebook - Masuk atau Daftar/input_email atau nomor handphone""), ""anizazelkia@yahoo.com"")",Edge Chromium 104,,,2022-08-13 14:27:07,2022-08-13 14:27:08,1.384s,PASSED
+"setEncryptedText(findTestObject(""facebook.com/Page_Facebook - Masuk atau Daftar/input_password""), """")",Edge Chromium 104,,,2022-08-13 14:27:08,2022-08-13 14:27:09,0.981s,PASSED
+"click(findTestObject(""facebook.com/Page_Facebook - Masuk atau Daftar/button_Masuk""))",Edge Chromium 104,,,2022-08-13 14:27:09,2022-08-13 14:27:43,33.276s,PASSED
+"verifyElementText(findTestObject(""facebook.com/Notifikasi_Login/div_The password that youve entered is incorrect. Forgotten password""), ""The password that you've entered is incorrect. Forgotten password?"")",Edge Chromium 104,,,2022-08-13 14:27:43,2022-08-13 14:27:48,5.792s,PASSED
+takeScreenshot(),Edge Chromium 104,,,2022-08-13 14:27:48,2022-08-13 14:27:49,0.634s,PASSED

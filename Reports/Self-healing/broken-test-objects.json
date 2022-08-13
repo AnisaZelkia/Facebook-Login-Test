@@ -1,0 +1,74 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_4680ca",
+      "brokenLocator": "//form[@id\u003d\u0027u_0_2_6q\u0027]/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Facebook helps you connect and share with the people in your life.\u0027])[1]/following::div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_4680ca_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Facebook  log in or sign up/button_Log In",
+      "brokenLocator": "//button[@id\u003d\u0027u_0_5_G0\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Facebook helps you connect and share with the people in your life.\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Facebook  log in or sign up/button_Log In_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Facebook  log in or sign up/a_Not you",
+      "brokenLocator": "//html[@id\u003d\u0027facebook\u0027]/body/div[4]/div[2]/div/div/div/div/div[4]/span[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Not you?\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Facebook  log in or sign up/a_Not you_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/facebook.com/Page_Facebook - Masuk atau Daftar/button_Masuk",
+      "brokenLocator": "//button[@id\u003d\u0027u_0_5_+C\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Facebook membantu Anda terhubung dan berbagi dengan orang-orang dalam kehidupan Anda.\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/facebook.com/Page_Facebook - Masuk atau Daftar/button_Masuk_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/facebook.com/Page_Facebook - Masuk atau Daftar/button_Masuk",
+      "brokenLocator": "//button[@id\u003d\u0027u_0_5_+C\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/facebook.com/Page_Facebook - Masuk atau Daftar/button_Masuk_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Notifikasi_Login/div_The email address or mobile number you entered isnt connected to an account. Find your account and log in",
+      "brokenLocator": "//*[(text() \u003d concat(\"The email address or mobile number you entered isn\" , \"\u0027\" , \"t connected to an account. Find your account and log in.\") or . \u003d concat(\"The email address or mobile number you entered isn\" , \"\u0027\" , \"t connected to an account. Find your account and log in.\"))]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Log in to Facebook\u0027])[2]/following::div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Notifikasi_Login/div_The email address or mobile number you entered isnt connected to an account. Find your account and log in_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/facebook.com/Notifikasi_Login/div_The email address or mobile number you entered isnt connected to an account. Find your account and log in",
+      "brokenLocator": "//*[(text() \u003d concat(\"The email address or mobile number you entered isn\" , \"\u0027\" , \"t connected to an account. Find your account and log in.\") or . \u003d concat(\"The email address or mobile number you entered isn\" , \"\u0027\" , \"t connected to an account. Find your account and log in.\"))]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027email_container\u0027]/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/facebook.com/Notifikasi_Login/div_The email address or mobile number you entered isnt connected to an account. Find your account and log in_XPATH.png"
+    }
+  ]
+}
